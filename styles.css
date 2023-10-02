@@ -1,0 +1,68 @@
+/* Add this CSS to your external styles.css file */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        to right,
+        #C6EA8D,
+        #FE90AF
+    );
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+}
+
+.icon {
+    width: 20px; /* Adjust the size of the icons as needed */
+    height: 20px; /* Adjust the size of the icons as needed */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media-link {
+    margin: 0 10px;
+}
+
+.social-media-link img.icon {
+    width: 20px; /* Adjust the size of the social media icons as needed */
+    height: 20px; /* Adjust the size of the social media icons as needed */
+}
+
+.about {
+    margin: 0 1rem; /* Adjust the margin as needed */
+    text-align: center; /* Center-align the content within the "About Me" section */
+}
+
+.about h4 {
+    margin-top: 20px; /* Add some spacing above the link */
+}
+
+.project-container {
+    text-align: center; /* Center-align the entire container */
+}
+
+.projects {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly with space in between */
+    margin: 0 -5cm; /* Apply negative margin to create a 5 cm gap between projects */
+}
+
+.project {
+    width: calc(33.33% - 10cm); /* Calculate width for each project with margin included */
+    margin: 0 5cm; /* Apply margin to create a 5 cm gap between projects */
+}
+
+/* Additional styles for your projects or other elements as needed */
