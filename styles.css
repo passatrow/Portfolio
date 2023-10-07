@@ -12,6 +12,16 @@ body {
     );
 }
 
+.project {
+    max-width: 300px; 
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    padding: 10px; 
+}
+
 .profile {
     text-align: center;
 }
